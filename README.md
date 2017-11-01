@@ -31,13 +31,9 @@ Host default
   LogLevel FATAL
 ```
 
-### Step 4
+### Complete!
 ```
-λ vagrant ssh-config --host 192.0.0.1 >> C:\Users\foobar\.ssh\config
-```
-### Complete
-```
-λ ssh 192.0.0.1
+λ vagrant ssh
 -bash: warning: setlocale: LC_CTYPE: cannot change locale (ja_JP.utf8): No such file or directory
 -bash: warning: setlocale: LC_COLLATE: cannot change locale (ja_JP.utf8): No such file or directory
 -bash: warning: setlocale: LC_MESSAGES: cannot change locale (ja_JP.utf8): No such file or directory
